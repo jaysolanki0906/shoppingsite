@@ -1,0 +1,54 @@
+
+
+
+<!-- include header -->
+<html>
+<head>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="update_profile2.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	</head>
+<body>
+	<table border="1">
+		<form method="post">
+<!-- <?php
+$records = mysqli_query($conn,"SELECT * FROM registration where id='$var'");
+while($data = mysqli_fetch_array($records))
+{
+?> -->
+	<tr>
+		<td>Id:<input type="text" value="id" readonly name="id"><br></td>
+	</tr>
+	<tr>
+		<td>Name: <input type="text" name="name"><br></td>
+	</tr>
+	<tr>
+		<td>Address: <input type="text"  name="add"><br></td>
+	</tr>
+	<tr>
+		<td>Mobile number: <input type="text"  name="moblie"><br></td>
+	</tr>
+	<tr>
+		<td>Email: <input type="text"  name="email"><br></td>
+	</tr>
+	<tr>
+		<td><label>Gender :</label>
+		<input type="radio" name="g" value="Male"/> Male 
+		<input type="radio" name="g" value="Female"/> Female
+		<input type="radio" name="g" value="Other"/> Other <br></td>
+	</tr>
+	<tr>
+		<td>Image:<input type="file" src=""><br></td>
+    </tr>
+	<tr><td><center><input type="submit" name="submit" value="Update"></center></td>
+	</tr>
+	 <?php
+}
+?> 
+</form>
+</table>
+</body>
+</html>

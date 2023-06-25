@@ -1,0 +1,23 @@
+input[type=text] {
+  width: 75%;
+  padding: 2px 30px;
+  margin: 8px 20;
+  box-sizing: border-box;
+  font:arial;
+}
+table{
+		border: 1px solid;
+		border-radius: 5px;
+	border-spacing: 10px;
+	font-style: italic;
+}
+input[type=submit]{
+	text-align: center;
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	padding: 5px 50px;
+	text-decoration: none;
+	margin: 4px 20px;
+	cursor: pointer;
+  }
